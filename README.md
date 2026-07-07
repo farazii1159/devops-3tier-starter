@@ -12,7 +12,7 @@ Infrastructure and delivery live at the repo root (`docker-compose.yml`, `.githu
 
 ---
 
-## Architecture
+## Architecture 
 
 ```text
 ┌─────────────────┐     HTTP      ┌─────────────────┐     SQL       ┌─────────────────┐

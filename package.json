@@ -1,0 +1,21 @@
+{
+  "name": "three-tier-app",
+  "version": "1.0.0",
+  "description": "Production-oriented starter for a **3-tier web application**:",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run lint --prefix server && npm run lint --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farazii1159/devops-3tier-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/farazii1159/devops-3tier-starter/issues"
+  },
+  "homepage": "https://github.com/farazii1159/devops-3tier-starter#readme"
+}

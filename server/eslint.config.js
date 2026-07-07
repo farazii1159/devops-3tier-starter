@@ -11,5 +11,15 @@ export default tseslint.config(
       ecmaVersion: 2022,
       globals: globals.node,
     },
+    // Yahan rules add karein
+    rules: {
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { 
+          "argsIgnorePattern": "^_", 
+          "varsIgnorePattern": "^_" 
+        }
+      ]
+    },
   },
 );
